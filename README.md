@@ -47,7 +47,7 @@ Then it's pretty simple:
 
 ## Development process
 
-### Face recognition
+### Face recognition.
 
 The first step in the development of this application was to get the face recognition part of it ready. There are a few things to consider here: we had to do the processing locally (we didn't have access to [AWS](https://aws.amazon.com/)), the most widely known libraries for local image processing are available in [Python](https://www.python.org/), and face recognition requires a previous step of face detection, so both must be performed well. 
 
